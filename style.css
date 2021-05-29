@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+html{
+    background: url("73060-laeacco-gradijent-boje-cvrste-dijete-novorodence-portret-fotografski-pozadine-pojedinacne-slike-pozadine-za-foto-studio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+body{
+        min-height: 100vh;
+}
+nav{
+    display:flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display:flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 10px 10px;
+    transition: 0.3s;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    flex-direction: row;
+}
+ul li a{
+    color:black;
+    font-weight: 500;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+ul li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 2.2vh;
+    transition: all 0.3s;
+    border-radius: 3px  rgb(211, 211, 211);
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    color:rgba(0,0,0,0.5);
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+.logo img {
+    border-radius: 10px;
+    background-color:rgba(255,255,255,0.4); 
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 20px aliceblue;
+    height: 200px;
+}
+.chooseCity {
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:50%;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 3vh;
+    margin: 15px auto 0px auto;
+    font-family: 'Indie Flower', cursive;
+    z-index: 1;
+    color:white;
+}
+
+
+article{
+    display:flex;
+    background-color: rgba(255,255,255,0.4);
+    padding: 20px;
+    font-family: 'Fraunces', serif;
+    border-top: 1px solid var(--borderColor-color);
+    border-left: 1px solid var(--borderColor-color);
+    border-radius:15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin: 20px 20px;
+    word-break: break-word;
+    transition: opacity 2s;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    -moz-backdrop-filter: blur(1px);
+    font-weight: 600;
+}
+article h1{
+    font-size: 3.5vh;
+}
+.leftContainer{
+    width: 500px;
+    margin: 0 auto;
+}
+.rightContainer{
+    width: 500px;
+    margin: 0 auto;
+}
+/* Left Box on main STYLES */
+.leftContainer{
+    text-align:center;
+    font-size: 4vh;
+    font-family: 'Xanh Mono', monospace;
+    
+}
+.leftContainer img{
+    max-width: 100%;
+    margin: 15px auto;
+    border-radius:15px;
+    border: 1px solid var(--borderColor-color);
+}
+.leftContainer h2{
+    font-size: 3vh;
+    margin: 10px;
+    font-family: 'Xanh Mono', monospace;
+}
+.leftContainer p{
+    font-size: 2.5vh;
+    margin: 5px;
+    font-family: 'Xanh Mono', monospace;
+    text-align: left;
+}
+
+/* Right Box on main STYLES */
+.rightContainer{
+    text-align:center;
+    font-size: 2.5vh;
+    font-family: 'Xanh Mono', monospace;
+}
+.rightContainer p{
+    text-align: left;
+}
+/* Accesories */
+.whiteText{
+    color:rgb(248, 248, 248);
+}
+.stars{
+    font-size:3vh;
+    color:rgb(180, 180, 8);
+    text-shadow: 2px 3px 5px #444;
+}
+.hide {
+    display:none;
+}
